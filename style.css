@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background: #0e1117;
+  color: #e5e7eb;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: #0e1117;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+nav a {
+  margin: 0 20px;
+  color: #9ca3af;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav .active {
+  color: #f59e0b;
+  border-bottom: 2px solid #f59e0b;
+  padding-bottom: 4px;
+}
+
+.login-btn {
+  background: #f59e0b;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.hero {
+  display: flex;
+  padding: 80px 60px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.hero input {
+  width: 420px;
+  padding: 14px;
+  border-radius: 10px;
+  border: none;
+  background: #1f2933;
+  color: white;
+}
+
+.section {
+  padding: 60px;
+}
+
+.section h2 {
+  margin-bottom: 25px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.card, .listing {
+  background: #161b22;
+  padding: 25px;
+  border-radius: 14px;
+  text-align: center;
+  border: 1px solid #1f2933;
+}
+
+.card h3, .listing h3 {
+  margin: 10px 0;
+}
+
+.card p, .listing p {
+  color: #9ca3af;
+}
+
+.highlight {
+  background: #f9fafb;
+  color: #111827;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  color: #9ca3af;
+}
