@@ -1,85 +1,23 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fluxera | Unlock Campus Resources</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fluxera — Borrow Instead of Buy</title>
+    <meta name="description" content="Campus marketplace for students. Borrow, rent, sell, or give away books, electronics, and dorm essentials." />
+    <meta name="author" content="Fluxera" />
+    <meta property="og:title" content="Fluxera — Campus Marketplace" />
+    <meta property="og:description" content="Borrow, rent, sell, or give away college items within your campus community." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
 
-    <nav class="navbar">
-        <div class="logo">
-            <img src="assets/logo.png" alt="Fluxera Logo">
-            <span>Fluxera</span>
-        </div>
-        <div class="nav-links">
-            <a href="#">Home</a>
-            <a href="#">Browse</a>
-            <a href="#">Post Item</a>
-            <button class="login-btn">Login</button>
-        </div>
-    </nav>
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@Lovable" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+  </head>
 
-    <header class="hero">
-        <div class="hero-text">
-            <h1>Unlock Campus: <br>Resources. Share & Thrive.</h1>
-            <div class="search-bar">
-                <input type="text" placeholder="Search for books, calculators, etc...">
-                <button>Search</button>
-            </div>
-        </div>
-        <div class="hero-image">
-            <img src="assets/hero-illustration.png" alt="Campus sharing">
-        </div>
-    </header>
-
-    <section class="section">
-        <h2>Browse Categories</h2>
-        <div class="category-grid">
-            <div class="cat-card">
-                <i class="icon-book"></i>
-                <h3>Books</h3>
-                <p>From ₹5 / day</p>
-            </div>
-            <div class="cat-card">
-                <i class="icon-calc"></i>
-                <h3>Calculators</h3>
-                <p>From ₹20 / day</p>
-            </div>
-            <div class="cat-card">
-                <i class="icon-laptop"></i>
-                <h3>Electronics</h3>
-                <p>From ₹50 / day</p>
-            </div>
-            <div class="cat-card">
-                <i class="icon-dorm"></i>
-                <h3>Dorm Essentials</h3>
-                <p>From ₹100 / buy</p>
-            </div>
-        </div>
-    </section>
-
-    <section class="section">
-        <h2>Latest Listings</h2>
-        <div class="item-grid">
-            <div class="item-card highlight">
-                <img src="assets/calc-icon.png" alt="Calculator">
-                <h3>Scientific Calculator</h3>
-                <p class="price">₹20 / day • 20m away</p>
-            </div>
-            <div class="item-card">
-                <img src="assets/book-icon.png" alt="Textbook">
-                <h3>Coding Textbooks</h3>
-                <p class="price">Free • 200m away</p>
-            </div>
-            <div class="item-card">
-                <img src="assets/fridge-icon.png" alt="Mini Fridge">
-                <h3>Mini Fridge</h3>
-                <p class="price">₹150 / day • 100m away</p>
-            </div>
-        </div>
-    </section>
-
-</body>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
